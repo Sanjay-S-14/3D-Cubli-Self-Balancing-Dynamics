@@ -8,7 +8,11 @@ This project focuses on the dynamic modeling and control system simulation of a 
 
 ## 🎥 Simulation Showcase
 <video src="Results/DoF3_Cubli_Edge_side.mp4" controls="controls" width="100%"></video>
-![Simulation of the Cubli reaching and maintaining edge stabilization using SMC.]
+
+https://github.com/user-attachments/assets/060db56e-a1da-4f2b-93d6-429a7efa1a30
+
+
+*Simulation of the Cubli reaching and maintaining edge stabilization using SMC.*
 
 ## ⚙️ Current Control Architecture: Edge Balancing
 
