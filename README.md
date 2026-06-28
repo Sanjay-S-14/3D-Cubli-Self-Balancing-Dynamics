@@ -7,7 +7,7 @@ Dynamic modeling and control simulations for corner balancing a 3D Cubli. Implem
 This project focuses on the dynamic modeling and control system simulation of a 3D Cubli. The current phase successfully achieves robust edge balancing using advanced control theory. This serves as a critical intermediate milestone in managing multi-body dynamics before scaling up to full 3D spatial vertex (corner) balancing.
 
 ## 🎥 Simulation Showcase
-<video src="Results/DoF3_Cubli_edge (side).mp4" controls="controls" width="100%"></video>
+<video src="Results/DoF3_Cubli_Edge_side.mp4" controls="controls" width="100%"></video>
 ![Simulation of the Cubli reaching and maintaining edge stabilization using SMC.]
 
 ## ⚙️ Current Control Architecture: Edge Balancing
@@ -19,7 +19,7 @@ Balancing the cube along a 1D edge requires rejecting internal parameter variati
 
 ## 📈 System Performance & Plots
 
-![a) Cube angluar veocity vs time b) Cube angle vs time c) Wheel angualr velocity d) Output Torque vs time](/Results/Edge Balance (SMC).png)
+![a) Cube angluar veocity vs time b) Cube angle vs time c) Wheel angualr velocity d) Output Torque vs time](Results/Edge_Balance_SMC.png)
 
 ## 🚀 Current Focus & Future Scope (Full 3D Balancing)
 
