@@ -40,5 +40,5 @@ The active development phase is focused on transitioning from edge stabilization
 
 ## 🛠️ How to Run the Simulation
 1. Clone this repository.
-2. Open `[Insert main file name, e.g., main_sim.m]` in `[Software, e.g., MATLAB]`.
+2. Open `DoF3_Cubli_main.slx` in `MATLAB`.
 3. Run the script to initialize parameters and begin the edge stabilization sequence.
