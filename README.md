@@ -7,20 +7,19 @@ Dynamic modeling and control simulations for corner balancing a 3D Cubli. Implem
 This project focuses on the dynamic modeling and control system simulation of a 3D Cubli. The current phase successfully achieves robust edge balancing using advanced control theory. This serves as a critical intermediate milestone in managing multi-body dynamics before scaling up to full 3D spatial vertex (corner) balancing.
 
 ## 🎥 Simulation Showcase
-> **[Insert a 5-10 second GIF here showing the Cubli stabilizing on its edge]**
-> *Caption: Simulation of the Cubli reaching and maintaining edge stabilization using SMC.*
+<video src="Results/DoF3_Cubli_edge (side).mp4" controls="controls" width="100%"></video>
+![Simulation of the Cubli reaching and maintaining edge stabilization using SMC.]
 
 ## ⚙️ Current Control Architecture: Edge Balancing
 
 Balancing the cube along a 1D edge requires rejecting internal parameter variations and external disturbances.
 
 * **Sliding Mode Control (SMC):** Implemented to achieve robust edge stabilization. SMC drives the system states to a sliding surface and maintains them there, providing high accuracy despite non-linear system dynamics.
-* **Numerical Stability:** Employed stiff solvers (e.g., [Insert solver name if applicable]) to maintain precision throughout the dynamic simulation, preventing integration failures caused by rapid reaction wheel dynamics.
+* **Numerical Stability:** Employed stiff solvers (ode23 Bogacki-Shampine) to maintain precision throughout the dynamic simulation, preventing integration failures caused by rapid reaction wheel dynamics.
 
 ## 📈 System Performance & Plots
 
-> **[Insert a graph showing the sliding surface reaching phase or state error vs. time]**
-> *Caption: State trajectories converging to the sliding surface during edge stabilization.*
+![a) Cube angluar veocity vs time b) Cube angle vs time c) Wheel angualr velocity d) Output Torque vs time](/Results/Edge Balance (SMC).png)
 
 ## 🚀 Current Focus & Future Scope (Full 3D Balancing)
 
@@ -31,9 +30,9 @@ The active development phase is focused on transitioning from edge stabilization
 * **Multi-Axis SMC:** Expanding the Sliding Mode Controller to handle simultaneous, coupled multi-axis stabilization.
 
 ## 📂 Repository Structure
-* `/models` - Contains the primary dynamic models for edge balancing.
-* `/controllers` - Houses the active SMC control logic.
-* `/results` - Simulation output data and generated plots.
+* `/Models` - Contains the primary dynamic models for edge balancing.
+* `/Controllers` - Houses the active SMC control logic.
+* `/Results` - Simulation output data and generated plots.
 
 ## 🛠️ How to Run the Simulation
 1. Clone this repository.
