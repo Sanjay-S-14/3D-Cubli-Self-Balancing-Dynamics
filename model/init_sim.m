@@ -3,7 +3,12 @@
 
 clc; clear; close all;
 
-% 1. Open the Simulink model
+% 1. Load the required .mat file
+load("model/physical_parameters");
+load("model/tuning_parameter_corner");
+load("model/tuning_parameter_edge");
+
+% 2. Open the Simulink model
 open_system('model/Non_Holonomical_Cubli.slx');
 
 disp('Workspace loaded and model ready to run.');
