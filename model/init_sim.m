@@ -3,11 +3,7 @@
 
 clc; clear; close all;
 
-% 1. Load the parameters from the .mat file
-load('model/test torque.mat');
-load('model/test torque - Copy.mat');
-
-% 2. Open the Simulink model
-open_system('model/DoF3_Cubli_main.slx');
+% 1. Open the Simulink model
+open_system('model/Non_Holonomical_Cubli.slx');
 
 disp('Workspace loaded and model ready to run.');
